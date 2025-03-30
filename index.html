@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Song Library</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1e1e1e;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ff5722;
+            padding: 20px;
+        }
+        .song-list {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 600px;
+            background: #333;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        .song-item {
+            margin-top: 15px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Song Library</h1>
+        <p>Enjoy listening to my favorite track!</p>
+    </header>
+
+    <section class="song-list">
+        <h2>Now Playing</h2>
+        <div class="song-item">
+            <h3>Born To Blaze</h3>
+            <audio controls>
+                <source src="musics/Born_To_Blaze.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created with love by [Your Name]</p>
+        <p>Powered by Elvin Azsin</p>
+    </footer>
+
+</body>
+</html>
